@@ -1,11 +1,11 @@
 {
-  "name": "se-2",
+  "name": "VeriFund",
   "version": "0.0.1",
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/hardhat",
-      "packages/nextjs"
+      "packages/frontend",
+      "packages/contracts"
     ]
   },
   "scripts": {
@@ -57,5 +57,8 @@
   },
   "engines": {
     "node": ">=20.18.3"
+  },
+  "dependencies": {
+    "sonner": "^2.0.5"
   }
 }
